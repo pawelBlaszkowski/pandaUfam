@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>Ufam - ubezpieczenia</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <ul class="topnav" id="dropdownClick">
+                <li><a href="index.html">Ufam - ubezpieczenia</a></li>
+                <li><a href="page1.php">Życie i zdrowie</a></li>
+                <li><a href="page2.php">Mieszkanie i dom</a></li>
+                <li><a href="page3.php">OC/AC</a></li>
+                <li><a href="page4.php">Podróże</a></li>
+                <li class="topnav-right"><a href="kontakt.html">Kontakt</a></li>
+                <li class="dropdownicon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+            </ul>
+        </nav>
+        
+        <div class="container" id="section-1-background">
+            <div class="row">
+                <div class="col-8">
+                    
+                </div>
+                <div class="col-4">
+                    <div class="rightSide-col">
+                        <h1 class="large">UFAM</h1>
+                        <h2 class="large">ubezpieczenia</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <header>
+            <h1 class="section2header">Znajdziemy najlepsze ubezpieczenie.</h1>
+            <h3 class="subtitle">Wybierz jedną z poniższych kategorii:</h3>
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="col-3"><a href="page1.php">
+                    <div class="box" id="box-color1">
+                        <label class="naglowek">Życie i zdrowie</label>
+                    </div></a>
+                </div>
+                <div class="col-3"><a href="page2.php">
+                    <div class="box" id="box-color2">
+                        <label class="naglowek">Mieszkanie i dom</label>
+                    </div></a>
+                </div>
+                <div class="col-3"><a href="page3.php">
+                    <div class="box" id="box-color3">
+                        <label class="naglowek">OC/AC</label>
+                    </div></a>
+                </div>
+                <div class="col-3"><a href="page4.php">
+                    <div class="box" id="box-color4">
+                        <label class="naglowek">Podróże</label>
+                    </div></a>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <!--
+        <div class="container">
+            <div class="row">
+                <div class="col-7">
+                    <article>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+                        </p>
+                    </article>
+                </div>
+                <div class="col-5">
+                    <div class="slopeicon">
+                        <img src="iOS-Slope.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        -->
+        
+        <footer class="footsy">
+            <div class="row">
+                <div class="col-4"></div>
+                <h1 class="foot">Ufam</h1>
+                <h2 class="foot">ubezpieczenia</h2>
+                <ul>
+                    <li><a href="index.html">Ufam - ubezpieczenia</a></li>
+                    <li><a href="page1.php">Życie i zdrowie</a></li>
+                    <li><a href="page2.php">Mieszkanie i dom</a></li>
+                    <li><a href="page3.php">OC/AC</a></li>
+                    <li><a href="page4.php">Podróże</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+                <div class="col-4"></div>
+            </div>
+        </footer>
+        
+        
+        
+        
+        
+        <script>
+            function dropdownMenu(){
+                var x = document.getElementById("dropdownClick");
+                if (x.className === "topnav"){
+                    x.className += " responsive";
+                    /* change topnav to topnav.responsive*/
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+    </body>
+</html>
