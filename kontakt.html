@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>Kontakt Wojmur - ubezpieczenia</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <ul class="topnav" id="dropdownClick">
+                <li><a href="index.html">Wojmur</a></li>
+                <li><a href="page1.html">Ubezpiecznie życia i zdrowia</a></li>
+                <li><a href="#ub2">Ubezpiecznie mieszkania i domu</a></li>
+                <li><a href="#ub3">Ubezpiecznie OC/AC</a></li>
+                <li><a href="#ub4">Ubezpiecznie turystyczne</a></li>
+                <!--<li class="topnav-right"><a href="#contact">Kontakt</a></li>-->
+                <li class="dropdownicon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+            </ul>
+        </nav>
+        
+        <div class="container" id="section-1-background">
+            <div class="row">
+                <div class="col-8">
+                    
+                </div>
+                <div class="col-4">
+                    <div class="rightSide-col">
+                        <h1 class="large">WOJMUR</h1>
+                        <h2 class="large">ubezpieczenia</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <header>
+            <h1 class="section2header">Kontakt</h1>
+            <h3 class="subtitle">Skontaktuj się z nami.</h3>
+        </header>
+        <!-- 
+        <div class="container">
+            <div class="row">
+                <div class="col-3"><a href="page1.html">
+                    <div class="box" id="box-color1">
+                        <label>Ubezpiecznie życia i zdrowia</label>
+                    </div></a>
+                </div>
+                <div class="col-3">
+                    <div class="box" id="box-color2">
+                        <div class="icon">
+                          
+                        </div>
+                        <label>Ubezpiecznie mieszkania i domu</label>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="box" id="box-color3">
+                        <div class="icon">
+                            
+                        </div>
+                        <label>Ubezpiecznie OC/AC</label>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="box" id="box-color4">
+                        <div class="icon">
+                           
+                        </div>
+                        <label>Ubezpiecznie turystyczne</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        -->
+        
+        
+        <!--
+        <div class="container">
+            <div class="row">
+                <div class="col-7">
+                    <article>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+                        </p>
+                    </article>
+                </div>
+                <div class="col-5">
+                    <div class="slopeicon">
+                        <img src="iOS-Slope.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        -->
+        
+        <footer class="footsy">
+            <div class="row">
+                <div class="col-4"></div>
+                <h1 class="foot">Wojmur</h1>
+                <h2 class="foot">ubezpieczenia</h2>
+                <ul>
+                    <li><a href="page1.html">Ubezpiecznie życia i zdrowia</a></li>
+                    <li>Ubezpiecznie mieszkania i domu</li>
+                    <li>Ubezpiecznie OC/AC</li>
+                    <li>Ubezpiecznie turystyczne</li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+                <div class="col-4"></div>
+            </div>
+        </footer>
+        
+        
+        
+        
+        
+        <script>
+            function dropdownMenu(){
+                var x = document.getElementById("dropdownClick");
+                if (x.className === "topnav"){
+                    x.className += " responsive";
+                    /* change topnav to topnav.responsive*/
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+    </body>
+</html>
