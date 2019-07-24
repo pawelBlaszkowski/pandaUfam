@@ -1,0 +1,65 @@
+-----------Pytania dotyczace pojazdu
+Czy samochod jest zarejestrowany na firme
+Numer rejestracyjny pojazdu / check - nie znam numeru
+NUmer VIN
+Rok produkcji samochodu
+Marka samochodu
+Model samochodu
+Rodzaj paliwa
+POjemnosc silnika
+liczba drzwi
+wybierz wersje pojazdu   eurotax
+wybierz model pojazdu   infoekspoert
+wybierz wersje pojazdu  infoekspert
+Czy samochod jest zarejestrowany jako ciezarowy T/N
+Ktorym od nowosci wlascicielem jest obecny wlasciciel SEL
+Kraj pierwszej rejestracji pojazdu
+Data pierwszej rejestracji pojazdu
+Data rejestracji samochodu przez obecnego wlasciciela
+Data waznosci badan technicznych
+immobilizer check
+blokada skrzyni biegow
+alarm
+monitoring GPS
+aktualny przebieg xxx tys km
+Czy samochod posiada jakies uszkodzeniua SEL
+Sposob uzytkowania samochodu SLE
+Ile km przejedzie samochod w ciagu najblizszych 12 miesiecy SEL
+Gdzie samochochod jest najczesciej parkowany noca
+Jak dlugo samochod bedzie uzytkowany za granica
+
+
+
+--------------Pytania dotyczace wlasciciela
+Imie głownego wlasciela
+Nazwisko glownego wlasciela
+Pesel glownego wlasciela
+Numer telfonu
+Aders email glownego wlasciela
+Data urodzin wlasciela
+Czy wlasciciel bedzie kierowal tym autem - select
+Czy wlasciel posiada prawo jazdy kategorii B
+Data uzyskania prawa jazdy kategori B wlasciciela
+Kod pocztowy z adresu zamieszkania wlasciela
+Miejscowosc
+
+Czy adres zameldowania jest taki sam jak zamieszkania?
+
+Pleć właścicela Kobieta/Mezczyzna
+Stan cywilny wlasciciela
+Czy wlasciciel posiada dzieci w wieku ponizej 26 lat?
+
+Zawod wykonywany przez właściciela - pole select
+Ilu wspolwlascicieli posiada pojazd 0/1/2i wiecej
+Zgadzam sie na polityke prywatnosci wszystkich obsługiwanych TU - check
+
+-------------------------Dodatkowi kierowcy
+Czy beda dodatkowi kierowcy mlodsi od wymienionych lub posiadajacy prawo jazdy krocej niz 3 lata - nie, nie bedzie/ tak jeden / tak, dwoch lub wiecej
+
+--------------------------Pytania dotyczace ubezpieczenia wlasciciela
+Od ilu lat wlasciciel kupuje polisy OC dla swoich pojazdow SELECT
+Od kiedy potrzebujesz ubezpieczenia?
+
+
+
+
